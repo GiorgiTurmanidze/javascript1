@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-1</title>
+</head>
+
+
+<body>
+    
+
+    <script>
+        
+        function one() {
+            var question = prompt("please enter a number: ")
+            if (isNaN(question)) {
+                alert("You can only put numbers here!")
+            }
+            else {
+                if (question == "") {
+                    alert("Please Enter a Number!")   
+                }
+                else {
+                    if (question % 2 == 0)  {
+                    alert("number " + question +  " is even")
+                }
+                
+                if (question % 2 != 0) {
+                    alert("number " + question + " is odd")
+                }
+                if (question == "") {
+                    alert("Please Enter a Number!")
+                }
+                }
+                
+            }
+        }
+
+        one();
+
+
+    </script>
+</body>
+
+
+</html>

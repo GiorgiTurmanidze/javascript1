@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-4</title>
+</head>
+
+
+<body>
+
+    
+    <script>
+        function largest(first, second) {
+            var first = prompt("Please Enter First Number.")
+            if (isNaN(first)) {
+                alert("YOU HAVE TO ENTER A NUMBER!!!")
+            }
+            else {
+                var second = prompt("Please Enter Second Number.")
+                if (isNaN(second)) {
+                    alert("YOU HAVE TO ENTER A NUMBER!!!")
+                }
+            }
+            if (!isNaN(first && second)) {
+            if (first > second) {
+                alert(first + " is a highest number.")
+            }
+            if (first == second) {
+                alert(first + " is equal to " + second + ".")
+            }
+            if (first < second) {
+                alert(second + " is a highest number.")
+            }
+            }
+            
+            
+        }
+        largest();
+    </script>
+</body>
+
+
+</html>
